@@ -14,8 +14,13 @@ My practical exercises and programming assignments for COS 201, with one folder 
 ```
 .
 ├── README.md
-└── week01/
-    └── FirstProgram.java
+├── week01/
+│   └── FirstProgram.java
+└── week02/
+    ├── HelloWorld.java
+    ├── StudentProfile.java
+    ├── PrintExample.java
+    └── ErrorExample.java
 ```
 
 ---
@@ -63,3 +68,73 @@ My goal: To learn Java well enough to write correct, secure programs and later b
 - Printing text with `System.out.println()`
 - Compiling with `javac` and running with `java`
 - Keeping my work on GitHub
+
+---
+
+## Week 2: Development Environment and First Java Program
+
+### Objective
+
+To set up the Java development environment, write a simple Java program, compile it, run it and submit the source code through GitHub.
+
+### Tools Used
+
+- Java Development Kit (JDK)
+- Visual Studio Code
+- Git
+- GitHub Desktop
+- GitHub
+
+### Files
+
+- `week02/HelloWorld.java`: the main practical program. It prints three lines of text.
+- `week02/StudentProfile.java`: the personalised program. It prints my name, course and programme details.
+- `week02/PrintExample.java`: the practice exercise that shows how `print()` and `println()` differ.
+- `week02/ErrorExample.java`: the "find and fix the error" exercise. I added the missing semicolon, so it now compiles.
+
+### How to Run
+
+1. Open a terminal in the `week02` directory.
+2. Compile the program using `javac HelloWorld.java`.
+3. Run the program using `java HelloWorld`.
+
+The other three programs are compiled and run in the same way. For example, `javac StudentProfile.java` and then `java StudentProfile`.
+
+### Output
+
+**HelloWorld**
+
+```
+Hello, World!
+Welcome to COS 201.
+I am learning Java programming.
+```
+
+**StudentProfile**
+
+```
+NAME: Mary Joy Gazu
+COURSE: COS 201
+COURSE TITLE: Computer Programming I
+PROGRAMME: Cyber Security
+WEEK: 2
+TOPIC: Development Environment and Java
+GOAL: To write, compile and debug Java programs on my own.
+```
+
+**PrintExample**
+
+```
+COS 201
+Java
+```
+
+**ErrorExample**
+
+```
+Learning Java
+```
+
+### Learning Outcome
+
+I installed and set up the JDK, Visual Studio Code and Git. I then wrote, compiled and ran Java programs and submitted them through GitHub. I learned that `print()` leaves the cursor on the same line, while `println()` moves it to the next line. I also learned to read compiler errors: `';' expected` told me exactly which line was missing a semicolon.
